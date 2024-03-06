@@ -31,3 +31,18 @@ You can also run this bot using Docker. Follow these steps:
 1. Build the Docker image using the provided Dockerfile: `docker build -t telegram-email-bot .`
 2. Run the Docker container: `docker run -d --name telegram-bot telegram-email-bot`
 
+## Tests
+The `tests.py` script contains several test functions to ensure the proper functionality of the bot. These tests cover various scenarios, including:
+- Sending an email with a valid file.
+- Handling incorrect file names.
+- Handling malformed email addresses.
+
+## Files
+- `tests.py`: Contains test functions to verify the functionality of the bot.
+- `test_tool.py`: Provides utility functions and classes for testing the bot using Selenium WebDriver.
+
+## Prerequisites
+- Python 3.x
+- Selenium WebDriver
+- Chrome WebDriver
+- Telegram account
